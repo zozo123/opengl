@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B15916F31660FFD30015BD4F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15916F21660FFD30015BD4F /* Cocoa.framework */; };
+		B15916FD1660FFD30015BD4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B15916FB1660FFD30015BD4F /* InfoPlist.strings */; };
+		B15916FF1660FFD30015BD4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B15916FE1660FFD30015BD4F /* main.m */; };
+		B15917031660FFD30015BD4F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B15917011660FFD30015BD4F /* Credits.rtf */; };
+		B15917061660FFD30015BD4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B15917051660FFD30015BD4F /* AppDelegate.m */; };
+		B15917091660FFD30015BD4F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B15917071660FFD30015BD4F /* MainMenu.xib */; };
+		B15917111660FFD30015BD4F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15917101660FFD30015BD4F /* SenTestingKit.framework */; };
+		B15917121660FFD30015BD4F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15916F21660FFD30015BD4F /* Cocoa.framework */; };
+		B159171A1660FFD30015BD4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B15917181660FFD30015BD4F /* InfoPlist.strings */; };
+		B159171D1660FFD40015BD4F /* Golden_TriangleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B159171C1660FFD40015BD4F /* Golden_TriangleTests.m */; };
+		B15917271660FFE40015BD4F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15917261660FFE40015BD4F /* OpenGL.framework */; };
+		B159172A166100190015BD4F /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1591729166100190015BD4F /* MyOpenGLView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B15917131660FFD30015BD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B15916E51660FFD30015BD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B15916ED1660FFD30015BD4F;
+			remoteInfo = "Golden Triangle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B15916EE1660FFD30015BD4F /* Golden Triangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golden Triangle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15916F21660FFD30015BD4F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B15916F51660FFD30015BD4F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B15916F61660FFD30015BD4F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B15916F71660FFD30015BD4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B15916FA1660FFD30015BD4F /* Golden Triangle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Golden Triangle-Info.plist"; sourceTree = "<group>"; };
+		B15916FC1660FFD30015BD4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B15916FE1660FFD30015BD4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B15917001660FFD30015BD4F /* Golden Triangle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Golden Triangle-Prefix.pch"; sourceTree = "<group>"; };
+		B15917021660FFD30015BD4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B15917041660FFD30015BD4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B15917051660FFD30015BD4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B15917081660FFD30015BD4F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B159170F1660FFD30015BD4F /* Golden TriangleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golden TriangleTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15917101660FFD30015BD4F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B15917171660FFD30015BD4F /* Golden TriangleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Golden TriangleTests-Info.plist"; sourceTree = "<group>"; };
+		B15917191660FFD30015BD4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B159171B1660FFD30015BD4F /* Golden_TriangleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Golden_TriangleTests.h; sourceTree = "<group>"; };
+		B159171C1660FFD40015BD4F /* Golden_TriangleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Golden_TriangleTests.m; sourceTree = "<group>"; };
+		B15917261660FFE40015BD4F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		B1591728166100190015BD4F /* MyOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+		B1591729166100190015BD4F /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B15916EB1660FFD30015BD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15917271660FFE40015BD4F /* OpenGL.framework in Frameworks */,
+				B15916F31660FFD30015BD4F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B159170B1660FFD30015BD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15917111660FFD30015BD4F /* SenTestingKit.framework in Frameworks */,
+				B15917121660FFD30015BD4F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B15916E31660FFD30015BD4F = {
+			isa = PBXGroup;
+			children = (
+				B1591728166100190015BD4F /* MyOpenGLView.h */,
+				B1591729166100190015BD4F /* MyOpenGLView.m */,
+				B15917261660FFE40015BD4F /* OpenGL.framework */,
+				B15916F81660FFD30015BD4F /* Golden Triangle */,
+				B15917151660FFD30015BD4F /* Golden TriangleTests */,
+				B15916F11660FFD30015BD4F /* Frameworks */,
+				B15916EF1660FFD30015BD4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B15916EF1660FFD30015BD4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B15916EE1660FFD30015BD4F /* Golden Triangle.app */,
+				B159170F1660FFD30015BD4F /* Golden TriangleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B15916F11660FFD30015BD4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B15916F21660FFD30015BD4F /* Cocoa.framework */,
+				B15917101660FFD30015BD4F /* SenTestingKit.framework */,
+				B15916F41660FFD30015BD4F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B15916F41660FFD30015BD4F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B15916F51660FFD30015BD4F /* AppKit.framework */,
+				B15916F61660FFD30015BD4F /* CoreData.framework */,
+				B15916F71660FFD30015BD4F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B15916F81660FFD30015BD4F /* Golden Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				B15917041660FFD30015BD4F /* AppDelegate.h */,
+				B15917051660FFD30015BD4F /* AppDelegate.m */,
+				B15917071660FFD30015BD4F /* MainMenu.xib */,
+				B15916F91660FFD30015BD4F /* Supporting Files */,
+			);
+			path = "Golden Triangle";
+			sourceTree = "<group>";
+		};
+		B15916F91660FFD30015BD4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B15916FA1660FFD30015BD4F /* Golden Triangle-Info.plist */,
+				B15916FB1660FFD30015BD4F /* InfoPlist.strings */,
+				B15916FE1660FFD30015BD4F /* main.m */,
+				B15917001660FFD30015BD4F /* Golden Triangle-Prefix.pch */,
+				B15917011660FFD30015BD4F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B15917151660FFD30015BD4F /* Golden TriangleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B159171B1660FFD30015BD4F /* Golden_TriangleTests.h */,
+				B159171C1660FFD40015BD4F /* Golden_TriangleTests.m */,
+				B15917161660FFD30015BD4F /* Supporting Files */,
+			);
+			path = "Golden TriangleTests";
+			sourceTree = "<group>";
+		};
+		B15917161660FFD30015BD4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B15917171660FFD30015BD4F /* Golden TriangleTests-Info.plist */,
+				B15917181660FFD30015BD4F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B15916ED1660FFD30015BD4F /* Golden Triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15917201660FFD40015BD4F /* Build configuration list for PBXNativeTarget "Golden Triangle" */;
+			buildPhases = (
+				B15916EA1660FFD30015BD4F /* Sources */,
+				B15916EB1660FFD30015BD4F /* Frameworks */,
+				B15916EC1660FFD30015BD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Golden Triangle";
+			productName = "Golden Triangle";
+			productReference = B15916EE1660FFD30015BD4F /* Golden Triangle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B159170E1660FFD30015BD4F /* Golden TriangleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15917231660FFD40015BD4F /* Build configuration list for PBXNativeTarget "Golden TriangleTests" */;
+			buildPhases = (
+				B159170A1660FFD30015BD4F /* Sources */,
+				B159170B1660FFD30015BD4F /* Frameworks */,
+				B159170C1660FFD30015BD4F /* Resources */,
+				B159170D1660FFD30015BD4F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B15917141660FFD30015BD4F /* PBXTargetDependency */,
+			);
+			name = "Golden TriangleTests";
+			productName = "Golden TriangleTests";
+			productReference = B159170F1660FFD30015BD4F /* Golden TriangleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B15916E51660FFD30015BD4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "yossi eliaz";
+			};
+			buildConfigurationList = B15916E81660FFD30015BD4F /* Build configuration list for PBXProject "Golden Triangle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B15916E31660FFD30015BD4F;
+			productRefGroup = B15916EF1660FFD30015BD4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B15916ED1660FFD30015BD4F /* Golden Triangle */,
+				B159170E1660FFD30015BD4F /* Golden TriangleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B15916EC1660FFD30015BD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15916FD1660FFD30015BD4F /* InfoPlist.strings in Resources */,
+				B15917031660FFD30015BD4F /* Credits.rtf in Resources */,
+				B15917091660FFD30015BD4F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B159170C1660FFD30015BD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B159171A1660FFD30015BD4F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B159170D1660FFD30015BD4F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B15916EA1660FFD30015BD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15916FF1660FFD30015BD4F /* main.m in Sources */,
+				B15917061660FFD30015BD4F /* AppDelegate.m in Sources */,
+				B159172A166100190015BD4F /* MyOpenGLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B159170A1660FFD30015BD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B159171D1660FFD40015BD4F /* Golden_TriangleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B15917141660FFD30015BD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B15916ED1660FFD30015BD4F /* Golden Triangle */;
+			targetProxy = B15917131660FFD30015BD4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B15916FB1660FFD30015BD4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B15916FC1660FFD30015BD4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B15917011660FFD30015BD4F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B15917021660FFD30015BD4F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B15917071660FFD30015BD4F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B15917081660FFD30015BD4F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B15917181660FFD30015BD4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B15917191660FFD30015BD4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B159171E1660FFD40015BD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B159171F1660FFD40015BD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B15917211660FFD40015BD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Golden Triangle/Golden Triangle-Prefix.pch";
+				INFOPLIST_FILE = "Golden Triangle/Golden Triangle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B15917221660FFD40015BD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Golden Triangle/Golden Triangle-Prefix.pch";
+				INFOPLIST_FILE = "Golden Triangle/Golden Triangle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B15917241660FFD40015BD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Golden Triangle.app/Contents/MacOS/Golden Triangle";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Golden Triangle/Golden Triangle-Prefix.pch";
+				INFOPLIST_FILE = "Golden TriangleTests/Golden TriangleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B15917251660FFD40015BD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Golden Triangle.app/Contents/MacOS/Golden Triangle";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Golden Triangle/Golden Triangle-Prefix.pch";
+				INFOPLIST_FILE = "Golden TriangleTests/Golden TriangleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B15916E81660FFD30015BD4F /* Build configuration list for PBXProject "Golden Triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B159171E1660FFD40015BD4F /* Debug */,
+				B159171F1660FFD40015BD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15917201660FFD40015BD4F /* Build configuration list for PBXNativeTarget "Golden Triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15917211660FFD40015BD4F /* Debug */,
+				B15917221660FFD40015BD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B15917231660FFD40015BD4F /* Build configuration list for PBXNativeTarget "Golden TriangleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15917241660FFD40015BD4F /* Debug */,
+				B15917251660FFD40015BD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B15916E51660FFD30015BD4F /* Project object */;
+}
